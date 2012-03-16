@@ -1,0 +1,1 @@
+INFOBIP_CREDENTIALS = YAML.load_file("#{Rails.root}/config/sms_delivery.yml")
