@@ -17,7 +17,7 @@ SMS delivery
    bundle install
 
 3.Create yml file in config directory (sms_delivery.yml) in this format
-  =========================
+  =====================================================================
   
   environment:
     user: Infobip account User name
@@ -34,8 +34,8 @@ SMS delivery
     sender: Staging_konga
     enabled: true
 
-4.call this function for sms delivery in any place other than above mentioned
-  =======================================================================
+4.Call this function for sms delivery
+  ===========================================================================
   
   SmsDelivery.sms_delivery(:sender => sender name, :GSM => phone no, :SMSText => text)
   
@@ -47,9 +47,5 @@ Be sure to bundle your dependencies and then create a dummy test app for the spe
     $ bundle
     $ bundle exec rake test app
     $ bundle exec rspec spec
-
-
-#### create yml file 
-
 
 Copyright (c) 2012 [name of extension creator], released under the New BSD License
